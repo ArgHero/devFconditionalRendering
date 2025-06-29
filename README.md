@@ -1,12 +1,27 @@
-# React + Vite
+# Proyecto de Conditional Rendering y Components Composition
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+En React, el 'Conditional Rendering' o renderizado condicional se refiere a la capacidad de mostrar o esconder componentes en la interfaz de usuario según ciertas condiciones. Esta es una característica fundamental en el desarrollo de aplicaciones interactivas, ya que permite modificar la interfaz dinámicamente en respuesta a eventos o estados. Por otro lado, la composición de componentes es un concepto fundamental en React que permite construir interfaces reutilizables y modulares,en lugar de crear componentes monolíticos y difíciles de mantener.
 
-Currently, two official plugins are available:
+## Objetivo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+El objetivo de este taller es que los estudiantes practiquen la renderización condicional y la composición de componentes en React creando un pequeño juego interactivo. Al final, el usuario podrá ingresar un número y recibir retroalimentación dinámica hasta acertar.
 
-## Expanding the ESLint configuration
+## Proyecto/Taller: Adivina el Número
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+En este workshop, crearemos un juego interactivo llamado "Adivina el Número". El juego generará un número aleatorio y el usuario deberá adivinarlo. Dependiendo de la respuesta del usuario, se mostrará un mensaje de éxito o una pista para seguir intentando. Utilizaremos **conditional rendering** para mostrar diferentes mensajes y **composición de componentes** para estructurar la interfaz de manera modular.
+
+## Instrucciones para el workshop/taller:
+
+1. Te proporcionamos un recurso de guía para poder llevar el taller por tu cuenta. Lo puedes consultar en el siguiente enlace: https://gist.github.com/heladio-devf-mx/7d68a7007135bdd4075a2e5837a1d93d7.
+2. En este caso el reto es que practiques lo aprendido haste el momento y que intentes crear desde cero los componentes y la lógica para implementar la solución.
+3. Te recomendamos que termines el taller como lo hemos planteado y depués intentes crear algo adicional y novedoso.
+4. Experimenta con distintos escenarios a los que se plantean y asegúrate de que funcione como deseas, incluso puedes crear conponentes funcionales personalizados según lo que quieras conseguir.
+
+## Entregables
+
+Para este proyecto se debe crear un repositorio nuevo y agregar los archivos necesarios que contenga la solución al problema planteado. Si tienes alguna duda de este ejercicio, no dudes en consultarla con tu sensei para que quede claro. También puedes solicitar una asesoría.
+
+Crea un nuevo repositorio en tu equipo local para solucionar el problema planteado.
+Crea uno o más 'commits' en tu repositorio con los archivos utilizados en la solución.
+Si quieres agrega otro(s) archivo(s) que tengas con ejemplos de la clase o con algún ejemplo que tú hayas intentado mucho mejor.
+Comparte la liga de Github de tu repositorio con la solución.
